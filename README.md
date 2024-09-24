@@ -1,4 +1,3 @@
-```markdown
 # Directory Tree Visualizer
 
 This project is a command-line tool that visualizes directory structures with Unicode icons for different file types.
@@ -39,4 +38,3 @@ This will display the directory structure of `/path/to/directory`, excluding any
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
-```
