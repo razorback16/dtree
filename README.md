@@ -30,7 +30,17 @@ This will create an executable named `directory_tree`.
 ## Example
 
 ```
-./dtree /path/to/directory --exclude=.git,.vscode
+$ ./dtree . --exclude=.git,obj,.vscode                                                                                                                                                                                                                                                                                  ─╯
+output:
+📁 .
+├─ 📎 Makefile
+├─ 📝 README.md
+├─ 📎 dtree
+└─ 📁 src
+   ├─ 📄 directory_tree.h
+   ├─ 📄 icons.h
+   ├─ 📄 directory_tree.cpp
+   └─ 📄 main.cpp
 ```
 
 This will display the directory structure of `/path/to/directory`, excluding any paths containing `.git` or `.vscode`.
